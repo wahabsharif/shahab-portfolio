@@ -1,19 +1,18 @@
-import React from "react";
-import Layout from "@/components/layout/Layout";
-import HomeOneBanner from "@/components/layout/banner/HomeOneBanner";
-import Agency from "@/components/containers/home/Agency";
-import PortfolioText from "@/components/containers/home/PortfolioText";
-import HomeOffer from "@/components/containers/home/HomeOffer";
-import HomeTestimonial from "@/components/containers/home/HomeTestimonial";
+import AboutSection from "@/components/home/AboutSection";
 import HomeBlog from "@/components/containers/home/HomeBlog";
+import HomeOffer from "@/components/containers/home/HomeOffer";
 import HomeSponsor from "@/components/containers/home/HomeSponsor";
+import HomeTestimonial from "@/components/containers/home/HomeTestimonial";
 import NextPage from "@/components/containers/home/NextPage";
+import PortfolioText from "@/components/containers/home/PortfolioText";
+import HomeBanner from "@/components/home/HomeBanner";
+import Layout from "@/components/layout/Layout";
 
 const Home = () => {
   return (
     <Layout header={1} footer={1}>
-      <HomeOneBanner />
-      <Agency />
+      <HomeBanner />
+      <AboutSection />
       <PortfolioText />
       <HomeOffer />
       <HomeTestimonial />
