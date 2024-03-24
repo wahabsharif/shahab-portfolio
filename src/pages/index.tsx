@@ -11,7 +11,7 @@ import Layout from "@/components/layout/Layout";
 
 const Home = () => {
   return (
-    <Layout header={1} footer={1}>
+    <Layout header={1} footer={2}>
       <Banner />
       <AboutSection />
       {/* <PortfolioText /> */}
