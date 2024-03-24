@@ -9,7 +9,7 @@ import videoframe from "public/images/video-frame.png";
 import YoutubeEmbed from "@/components/youtube/YoutubeEmbed";
 
 gsap.registerPlugin(ScrollTrigger);
-const HomeBanner = () => {
+const Banner = () => {
   const [videoActive, setVideoActive] = useState(false);
 
   useEffect(() => {
@@ -108,4 +108,4 @@ const HomeBanner = () => {
   );
 };
 
-export default HomeBanner;
+export default Banner;
