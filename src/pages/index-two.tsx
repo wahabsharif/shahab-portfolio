@@ -19,7 +19,7 @@ const HomeTwo = () => {
       <HomeTwoAward />
       <HomeTwoOffer />
       <HomeTwoModal />
-      {/* <HomeTwoPortfolio /> */}
+      <HomeTwoPortfolio />
       <HomeTwoTestimonial />
       <HomeTwoBlog />
       <HomeTwoCta />

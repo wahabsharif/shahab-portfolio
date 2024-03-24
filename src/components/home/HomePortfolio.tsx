@@ -106,6 +106,7 @@ const HomePortfolio = () => {
           </SwiperSlide>
         </Swiper>
       </div>
+
       <div className="container">
         <div className="row justify-content-center">
           <div className="col-12 col-lg-6 col-xl-4 text-center">
@@ -142,26 +143,59 @@ const HomePortfolio = () => {
                 <span>04</span>
                 Social Media
               </button>
+              <button
+                aria-label="Filter Portfolio"
+                className={activeFilter === ".carousel" ? "active" : ""}
+                onClick={() => handleTabClick(".carousel")}
+              >
+                <span>05</span>
+                Carousel
+              </button>
+              <button
+                aria-label="Filter Portfolio"
+                className={activeFilter === ".catalogue" ? "active" : ""}
+                onClick={() => handleTabClick(".catalogue")}
+              >
+                <span>06</span>
+                Catalogue
+              </button>
+              <button
+                aria-label="Filter Portfolio"
+                className={activeFilter === ".flyer" ? "active" : ""}
+                onClick={() => handleTabClick(".flyer")}
+              >
+                <span>07</span>
+                Flyer
+              </button>
+              <button
+                aria-label="Filter Portfolio"
+                className={activeFilter === ".tShirt" ? "active" : ""}
+                onClick={() => handleTabClick(".tShirt")}
+              >
+                <span>08</span>
+                T-Shirt
+              </button>
             </div>
           </div>
         </div>
+
         <div className="row masonry-grid">
+
+          {/* Stationary Designs */}
           <div
-            className={`col-12 col-md-6 col-xl-4 filter-item-space grid-item-main social ${activeFilter === ".social" || activeFilter === "*"
-              ? ""
-              : "hidden"
+            className={`col-12 col-md-6 col-xl-4 filter-item-space grid-item-main stationary ${activeFilter === ".stationary" || activeFilter === "*" ? "" : "hidden"
               }`}
           >
-            <div className="portfolio__single portfolio__single-active topy-tilt fade-top">
+            <div className="portfolio__single topy-tilt fade-top">
               <Link href="portfolio">
-                <Image src={one} alt="Image" />
+                <Image src={two} alt="Image" />
               </Link>
               <div className="portfolio__single-content">
                 <Link href="portfolio">
                   <i className="fa-sharp fa-solid fa-arrow-up-right"></i>
                 </Link>
                 <h4>
-                  <Link href="portfolio">Digital Marketing</Link>
+                  <Link href="portfolio">Stationary Design</Link>
                 </h4>
               </div>
             </div>
@@ -179,7 +213,47 @@ const HomePortfolio = () => {
                   <i className="fa-sharp fa-solid fa-arrow-up-right"></i>
                 </Link>
                 <h4>
-                  <Link href="portfolio">Digital Marketing</Link>
+                  <Link href="portfolio">Stationary Design</Link>
+                </h4>
+              </div>
+            </div>
+          </div>
+          <div
+            className={`col-12 col-md-6 col-xl-4 filter-item-space grid-item-main stationary ${activeFilter === ".stationary" || activeFilter === "*" ? "" : "hidden"
+              }`}
+          >
+            <div className="portfolio__single topy-tilt fade-top">
+              <Link href="portfolio">
+                <Image src={two} alt="Image" />
+              </Link>
+              <div className="portfolio__single-content">
+                <Link href="portfolio">
+                  <i className="fa-sharp fa-solid fa-arrow-up-right"></i>
+                </Link>
+                <h4>
+                  <Link href="portfolio">Stationary Design</Link>
+                </h4>
+              </div>
+            </div>
+          </div>
+
+          {/* Logo Designs */}
+          <div
+            className={`col-12 col-md-6 col-xl-4 filter-item-space grid-item-main logo ${activeFilter === ".logo" || activeFilter === "*"
+              ? ""
+              : "hidden"
+              }`}
+          >
+            <div className="portfolio__single topy-tilt fade-top">
+              <Link href="portfolio">
+                <Image src={three} alt="Image" />
+              </Link>
+              <div className="portfolio__single-content">
+                <Link href="portfolio">
+                  <i className="fa-sharp fa-solid fa-arrow-up-right"></i>
+                </Link>
+                <h4>
+                  <Link href="portfolio">Logo Design</Link>
                 </h4>
               </div>
             </div>
@@ -199,7 +273,49 @@ const HomePortfolio = () => {
                   <i className="fa-sharp fa-solid fa-arrow-up-right"></i>
                 </Link>
                 <h4>
-                  <Link href="portfolio">Digital Marketing</Link>
+                  <Link href="portfolio">Logo Design</Link>
+                </h4>
+              </div>
+            </div>
+          </div>
+          <div
+            className={`col-12 col-md-6 col-xl-4 filter-item-space grid-item-main logo ${activeFilter === ".logo" || activeFilter === "*"
+              ? ""
+              : "hidden"
+              }`}
+          >
+            <div className="portfolio__single topy-tilt fade-top">
+              <Link href="portfolio">
+                <Image src={three} alt="Image" />
+              </Link>
+              <div className="portfolio__single-content">
+                <Link href="portfolio">
+                  <i className="fa-sharp fa-solid fa-arrow-up-right"></i>
+                </Link>
+                <h4>
+                  <Link href="portfolio">Logo Design</Link>
+                </h4>
+              </div>
+            </div>
+          </div>
+
+          {/* Social Media */}
+          <div
+            className={`col-12 col-md-6 col-xl-4 filter-item-space grid-item-main social ${activeFilter === ".social" || activeFilter === "*"
+              ? ""
+              : "hidden"
+              }`}
+          >
+            <div className="portfolio__single topy-tilt fade-top">
+              <Link href="portfolio">
+                <Image src={four} alt="Image" />
+              </Link>
+              <div className="portfolio__single-content">
+                <Link href="portfolio">
+                  <i className="fa-sharp fa-solid fa-arrow-up-right"></i>
+                </Link>
+                <h4>
+                  <Link href="portfolio">Social Media Design</Link>
                 </h4>
               </div>
             </div>
@@ -219,13 +335,35 @@ const HomePortfolio = () => {
                   <i className="fa-sharp fa-solid fa-arrow-up-right"></i>
                 </Link>
                 <h4>
-                  <Link href="portfolio">Digital Marketing</Link>
+                  <Link href="portfolio">Social Media Design</Link>
                 </h4>
               </div>
             </div>
           </div>
           <div
-            className={`col-12 col-md-6 col-xl-4 filter-item-space grid-item-main stationary ${activeFilter === ".stationary" || activeFilter === "*" ? "" : "hidden"
+            className={`col-12 col-md-6 col-xl-4 filter-item-space grid-item-main social ${activeFilter === ".social" || activeFilter === "*"
+              ? ""
+              : "hidden"
+              }`}
+          >
+            <div className="portfolio__single topy-tilt fade-top">
+              <Link href="portfolio">
+                <Image src={four} alt="Image" />
+              </Link>
+              <div className="portfolio__single-content">
+                <Link href="portfolio">
+                  <i className="fa-sharp fa-solid fa-arrow-up-right"></i>
+                </Link>
+                <h4>
+                  <Link href="portfolio">Social Media Design</Link>
+                </h4>
+              </div>
+            </div>
+          </div>
+
+          {/* Carousel Design */}
+          <div
+            className={`col-12 col-md-6 col-xl-4 filter-item-space grid-item-main carousel ${activeFilter === ".carousel" || activeFilter === "*" ? "" : "hidden"
               }`}
           >
             <div className="portfolio__single topy-tilt fade-top">
@@ -237,13 +375,51 @@ const HomePortfolio = () => {
                   <i className="fa-sharp fa-solid fa-arrow-up-right"></i>
                 </Link>
                 <h4>
-                  <Link href="portfolio">Digital Marketing</Link>
+                  <Link href="portfolio">Carousel Design</Link>
                 </h4>
               </div>
             </div>
           </div>
           <div
-            className={`col-12 col-md-6 col-xl-4 filter-item-space grid-item-main logo ${activeFilter === ".logo" || activeFilter === "*"
+            className={`col-12 col-md-6 col-xl-4 filter-item-space grid-item-main carousel ${activeFilter === ".carousel" || activeFilter === "*" ? "" : "hidden"
+              }`}
+          >
+            <div className="portfolio__single topy-tilt fade-top">
+              <Link href="portfolio">
+                <Image src={five} alt="Image" />
+              </Link>
+              <div className="portfolio__single-content">
+                <Link href="portfolio">
+                  <i className="fa-sharp fa-solid fa-arrow-up-right"></i>
+                </Link>
+                <h4>
+                  <Link href="portfolio">Carousel Design</Link>
+                </h4>
+              </div>
+            </div>
+          </div>
+          <div
+            className={`col-12 col-md-6 col-xl-4 filter-item-space grid-item-main carousel ${activeFilter === ".carousel" || activeFilter === "*" ? "" : "hidden"
+              }`}
+          >
+            <div className="portfolio__single topy-tilt fade-top">
+              <Link href="portfolio">
+                <Image src={five} alt="Image" />
+              </Link>
+              <div className="portfolio__single-content">
+                <Link href="portfolio">
+                  <i className="fa-sharp fa-solid fa-arrow-up-right"></i>
+                </Link>
+                <h4>
+                  <Link href="portfolio">Carousel Design</Link>
+                </h4>
+              </div>
+            </div>
+          </div>
+
+          {/* Catalogue Design */}
+          <div
+            className={`col-12 col-md-6 col-xl-4 filter-item-space grid-item-main catalogue ${activeFilter === ".catalogue" || activeFilter === "*"
               ? ""
               : "hidden"
               }`}
@@ -257,11 +433,175 @@ const HomePortfolio = () => {
                   <i className="fa-sharp fa-solid fa-arrow-up-right"></i>
                 </Link>
                 <h4>
-                  <Link href="portfolio">Digital Marketing</Link>
+                  <Link href="portfolio">Catalogue Design</Link>
                 </h4>
               </div>
             </div>
           </div>
+          <div
+            className={`col-12 col-md-6 col-xl-4 filter-item-space grid-item-main catalogue ${activeFilter === ".catalogue" || activeFilter === "*"
+              ? ""
+              : "hidden"
+              }`}
+          >
+            <div className="portfolio__single topy-tilt fade-top">
+              <Link href="portfolio">
+                <Image src={one} alt="Image" />
+              </Link>
+              <div className="portfolio__single-content">
+                <Link href="portfolio">
+                  <i className="fa-sharp fa-solid fa-arrow-up-right"></i>
+                </Link>
+                <h4>
+                  <Link href="portfolio">Catalogue Design</Link>
+                </h4>
+              </div>
+            </div>
+          </div>
+          <div
+            className={`col-12 col-md-6 col-xl-4 filter-item-space grid-item-main catalogue ${activeFilter === ".catalogue" || activeFilter === "*"
+              ? ""
+              : "hidden"
+              }`}
+          >
+            <div className="portfolio__single topy-tilt fade-top">
+              <Link href="portfolio">
+                <Image src={one} alt="Image" />
+              </Link>
+              <div className="portfolio__single-content">
+                <Link href="portfolio">
+                  <i className="fa-sharp fa-solid fa-arrow-up-right"></i>
+                </Link>
+                <h4>
+                  <Link href="portfolio">Catalogue Design</Link>
+                </h4>
+              </div>
+            </div>
+          </div>
+
+          {/* Flyer Design */}
+          <div
+            className={`col-12 col-md-6 col-xl-4 filter-item-space grid-item-main flyer ${activeFilter === ".flyer" || activeFilter === "*"
+              ? ""
+              : "hidden"
+              }`}
+          >
+            <div className="portfolio__single topy-tilt fade-top">
+              <Link href="portfolio">
+                <Image src={one} alt="Image" />
+              </Link>
+              <div className="portfolio__single-content">
+                <Link href="portfolio">
+                  <i className="fa-sharp fa-solid fa-arrow-up-right"></i>
+                </Link>
+                <h4>
+                  <Link href="portfolio">Flyer Design</Link>
+                </h4>
+              </div>
+            </div>
+          </div>
+          <div
+            className={`col-12 col-md-6 col-xl-4 filter-item-space grid-item-main flyer ${activeFilter === ".flyer" || activeFilter === "*"
+              ? ""
+              : "hidden"
+              }`}
+          >
+            <div className="portfolio__single topy-tilt fade-top">
+              <Link href="portfolio">
+                <Image src={one} alt="Image" />
+              </Link>
+              <div className="portfolio__single-content">
+                <Link href="portfolio">
+                  <i className="fa-sharp fa-solid fa-arrow-up-right"></i>
+                </Link>
+                <h4>
+                  <Link href="portfolio">Flyer Design</Link>
+                </h4>
+              </div>
+            </div>
+          </div>
+          <div
+            className={`col-12 col-md-6 col-xl-4 filter-item-space grid-item-main flyer ${activeFilter === ".flyer" || activeFilter === "*"
+              ? ""
+              : "hidden"
+              }`}
+          >
+            <div className="portfolio__single topy-tilt fade-top">
+              <Link href="portfolio">
+                <Image src={one} alt="Image" />
+              </Link>
+              <div className="portfolio__single-content">
+                <Link href="portfolio">
+                  <i className="fa-sharp fa-solid fa-arrow-up-right"></i>
+                </Link>
+                <h4>
+                  <Link href="portfolio">Flyer Design</Link>
+                </h4>
+              </div>
+            </div>
+          </div>
+          {/* T-Shirt Design */}
+          <div
+            className={`col-12 col-md-6 col-xl-4 filter-item-space grid-item-main tShirt ${activeFilter === ".tShirt" || activeFilter === "*"
+              ? ""
+              : "hidden"
+              }`}
+          >
+            <div className="portfolio__single topy-tilt fade-top">
+              <Link href="portfolio">
+                <Image src={one} alt="Image" />
+              </Link>
+              <div className="portfolio__single-content">
+                <Link href="portfolio">
+                  <i className="fa-sharp fa-solid fa-arrow-up-right"></i>
+                </Link>
+                <h4>
+                  <Link href="portfolio">T-Shirt Design</Link>
+                </h4>
+              </div>
+            </div>
+          </div>
+          <div
+            className={`col-12 col-md-6 col-xl-4 filter-item-space grid-item-main tShirt ${activeFilter === ".tShirt" || activeFilter === "*"
+              ? ""
+              : "hidden"
+              }`}
+          >
+            <div className="portfolio__single topy-tilt fade-top">
+              <Link href="portfolio">
+                <Image src={one} alt="Image" />
+              </Link>
+              <div className="portfolio__single-content">
+                <Link href="portfolio">
+                  <i className="fa-sharp fa-solid fa-arrow-up-right"></i>
+                </Link>
+                <h4>
+                  <Link href="portfolio">T-Shirt Design</Link>
+                </h4>
+              </div>
+            </div>
+          </div>
+          <div
+            className={`col-12 col-md-6 col-xl-4 filter-item-space grid-item-main tShirt ${activeFilter === ".tShirt" || activeFilter === "*"
+              ? ""
+              : "hidden"
+              }`}
+          >
+            <div className="portfolio__single topy-tilt fade-top">
+              <Link href="portfolio">
+                <Image src={one} alt="Image" />
+              </Link>
+              <div className="portfolio__single-content">
+                <Link href="portfolio">
+                  <i className="fa-sharp fa-solid fa-arrow-up-right"></i>
+                </Link>
+                <h4>
+                  <Link href="portfolio">T-Shirt Design</Link>
+                </h4>
+              </div>
+            </div>
+          </div>
+
         </div>
       </div>
     </section>
