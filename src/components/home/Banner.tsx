@@ -53,15 +53,17 @@ const Banner = () => {
             <div className="col-12">
               <div className="banner__content">
                 <h1 className="text-uppercase text-start fw-9 mb-0 title-anim">
-                  We are
-                  <span className="text-stroke">creative</span>
+                  We are Creative
                   <span className="interval">
                     <i className="icon-arrow-top-right"></i> digital agency
                   </span>
                 </h1>
                 <div className="banner__content-inner">
                   <p>
-                    We are a comprehensive agency offering website design, development, and digital marketing services, with a focus on SEO and content marketing strategies aimed at expanding brand presence and recognition.
+                    We are a comprehensive agency offering website design,
+                    development, and digital marketing services, with a focus on
+                    SEO and content marketing strategies aimed at expanding
+                    brand presence and recognition.
                   </p>
                   <div className="cta section__content-cta">
                     <div className="single">
@@ -85,23 +87,24 @@ const Banner = () => {
         />
         <Image src={star} alt="Image" className="star" />
         <div className="banner-left-text banner-social-text d-none d-md-flex">
-          <Link href="mailto:info@xpovio.com">mail : shahabmunir98@gmail.com</Link>
+          <Link href="mailto:info@xpovio.com">
+            mail : shahabmunir98@gmail.com
+          </Link>
           <Link href="tel:923177906015">Call : +92 317 790 6015</Link>
         </div>
         <div className="banner-right-text banner-social-text d-none d-md-flex">
-          <Link href="https://www.linkedin.com/in/shahab-munir-48b208213?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank">
+          <Link
+            href="https://www.linkedin.com/in/shahab-munir-48b208213?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
+            target="_blank"
+          >
             Linkedin
           </Link>
-          <Link href="https://www.facebook.com/profile.php?id=100069850357888" target="_blank">
+          <Link
+            href="https://www.facebook.com/profile.php?id=100069850357888"
+            target="_blank"
+          >
             facebook
           </Link>
-        </div>
-        <div className="lines d-none d-lg-flex">
-          <div className="line"></div>
-          <div className="line"></div>
-          <div className="line"></div>
-          <div className="line"></div>
-          <div className="line"></div>
         </div>
       </section>
     </>

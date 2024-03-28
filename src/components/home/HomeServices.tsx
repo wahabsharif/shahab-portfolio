@@ -169,13 +169,6 @@ const HomeServices = () => {
         </div>
       </div>
       <Image src={star} alt="Image" className="star" />
-      <div className="lines d-none d-lg-flex">
-        <div className="line"></div>
-        <div className="line"></div>
-        <div className="line"></div>
-        <div className="line"></div>
-        <div className="line"></div>
-      </div>
     </section>
   );
 };

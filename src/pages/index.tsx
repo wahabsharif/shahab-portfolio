@@ -19,7 +19,6 @@ const Home = () => {
       <HomeClients />
       <HomeServices />
       {/* <HomeTestimonial /> */}
-      <NextPage />
     </Layout>
   );
 };
