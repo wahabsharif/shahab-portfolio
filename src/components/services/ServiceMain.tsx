@@ -60,12 +60,6 @@ const ServiceMain = () => {
                         <li>Idea Validation</li>
                         <li>Customer Value</li>
                       </ul>
-                      <div className="cta">
-                        <Link href="service-single">
-                          <i className="icon-arrow-top-right"></i>
-                          <span>service details</span>
-                        </Link>
-                      </div>
                     </div>
                   </div>
                 </SwiperSlide>
@@ -78,7 +72,7 @@ const ServiceMain = () => {
                           <i className="fa-solid fa-arrow-right"></i>
                         </span>
                         <h4>
-                          <Link href="service-single">UX Design</Link>
+                          <Link href="service-single">Social Media</Link>
                         </h4>
                       </div>
                       <ul>
@@ -88,12 +82,6 @@ const ServiceMain = () => {
                         <li>User Flow</li>
                         <li>Information Architecture</li>
                       </ul>
-                      <div className="cta">
-                        <Link href="service-single">
-                          <i className="icon-arrow-top-right"></i>
-                          <span>service details</span>
-                        </Link>
-                      </div>
                     </div>
                   </div>
                 </SwiperSlide>
@@ -106,7 +94,7 @@ const ServiceMain = () => {
                           <i className="fa-solid fa-arrow-right"></i>
                         </span>
                         <h4>
-                          <Link href="service-single">UI Design</Link>
+                          <Link href="service-single">Logo Design</Link>
                         </h4>
                       </div>
                       <ul>
@@ -116,12 +104,6 @@ const ServiceMain = () => {
                         <li>Final Delivery</li>
                         <li>Post Delivery Support</li>
                       </ul>
-                      <div className="cta">
-                        <Link href="service-single">
-                          <i className="icon-arrow-top-right"></i>
-                          <span>service details</span>
-                        </Link>
-                      </div>
                     </div>
                   </div>
                 </SwiperSlide>
@@ -144,15 +126,10 @@ const ServiceMain = () => {
                         <li>Post Delivery Support</li>
                         <li>server development</li>
                       </ul>
-                      <div className="cta">
-                        <Link href="service-single">
-                          <i className="icon-arrow-top-right"></i>
-                          <span>service details</span>
-                        </Link>
-                      </div>
                     </div>
                   </div>
                 </SwiperSlide>
+
                 <SwiperSlide>
                   <div className="service-t-single-wrapper">
                     <div className="service-t__slider-single">
@@ -172,12 +149,6 @@ const ServiceMain = () => {
                         <li>Idea Validation</li>
                         <li>Customer Value</li>
                       </ul>
-                      <div className="cta">
-                        <Link href="service-single">
-                          <i className="icon-arrow-top-right"></i>
-                          <span>service details</span>
-                        </Link>
-                      </div>
                     </div>
                   </div>
                 </SwiperSlide>
@@ -190,7 +161,7 @@ const ServiceMain = () => {
                           <i className="fa-solid fa-arrow-right"></i>
                         </span>
                         <h4>
-                          <Link href="service-single">UX Design</Link>
+                          <Link href="service-single">Social Media</Link>
                         </h4>
                       </div>
                       <ul>
@@ -200,12 +171,6 @@ const ServiceMain = () => {
                         <li>User Flow</li>
                         <li>Information Architecture</li>
                       </ul>
-                      <div className="cta">
-                        <Link href="service-single">
-                          <i className="icon-arrow-top-right"></i>
-                          <span>service details</span>
-                        </Link>
-                      </div>
                     </div>
                   </div>
                 </SwiperSlide>
@@ -218,7 +183,7 @@ const ServiceMain = () => {
                           <i className="fa-solid fa-arrow-right"></i>
                         </span>
                         <h4>
-                          <Link href="service-single">UI Design</Link>
+                          <Link href="service-single">Logo Design</Link>
                         </h4>
                       </div>
                       <ul>
@@ -228,12 +193,6 @@ const ServiceMain = () => {
                         <li>Final Delivery</li>
                         <li>Post Delivery Support</li>
                       </ul>
-                      <div className="cta">
-                        <Link href="service-single">
-                          <i className="icon-arrow-top-right"></i>
-                          <span>service details</span>
-                        </Link>
-                      </div>
                     </div>
                   </div>
                 </SwiperSlide>
@@ -256,12 +215,6 @@ const ServiceMain = () => {
                         <li>Post Delivery Support</li>
                         <li>server development</li>
                       </ul>
-                      <div className="cta">
-                        <Link href="service-single">
-                          <i className="icon-arrow-top-right"></i>
-                          <span>service details</span>
-                        </Link>
-                      </div>
                     </div>
                   </div>
                 </SwiperSlide>

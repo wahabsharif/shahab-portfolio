@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 
-const UxProcessTwo = () => {
+const Process = () => {
   const [imgTab, setImgTab] = useState(0);
 
   return (
@@ -10,10 +10,9 @@ const UxProcessTwo = () => {
           <div className="col-12 col-lg-8">
             <div className="section__header text-center">
               <span className="sub-title">
-                UX Process
-                <i className="fa-solid fa-arrow-right"></i>
+                Approach<i className="fa-solid fa-arrow-right"></i>
               </span>
-              <h2 className="title title-anim">working UX Process</h2>
+              <h2 className="title title-anim">Our working Process</h2>
             </div>
           </div>
         </div>
@@ -166,4 +165,4 @@ const UxProcessTwo = () => {
   );
 };
 
-export default UxProcessTwo;
+export default Process;
