@@ -22,7 +22,7 @@ const Testimonial = () => {
           <div className="row">
             <div className="col-12">
               <div className="banner__content">
-                <h1 className="text-uppercase text-start fw-9 mb-0 title-anim">
+                <h1 className="text-uppercase text-start fw-9 mb-10 title-anim">
                   Testimonials
                 </h1>
               </div>
