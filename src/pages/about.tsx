@@ -7,7 +7,7 @@ import CmnBanner from "@/components/layout/banner/CmnBanner";
 
 const About = () => {
   return (
-    <Layout header={1} footer={2} video={0}>
+    <Layout header={1} footer={2}>
       <CmnBanner title="About Us" navigation="About Us" />
       <AboutSection />
       <Testimonial />

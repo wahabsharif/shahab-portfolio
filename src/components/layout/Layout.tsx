@@ -36,7 +36,6 @@ const Layout = ({
   handleMouseLeaveTitle,
   video,
 }: LayoutProps) => {
-
   // tilt effect
   useEffect(() => {
     const tiltElements = document.querySelectorAll(".topy-tilt");
@@ -73,8 +72,9 @@ const Layout = ({
 
   const combinedClasses = `${additionalClasses} my-app`;
 
-  const combinedClassName = `${combinedClasses}${openNav ? " body-active" : ""
-    } ${classNameForCurrentPath}`;
+  const combinedClassName = `${combinedClasses}${
+    openNav ? " body-active" : ""
+  } ${classNameForCurrentPath}`;
 
   // fade animation
   useEffect(() => {
@@ -174,11 +174,7 @@ const Layout = ({
       <Head>
         <meta httpEquiv="X-UA-Compatible" content="ie=edge" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <link
-          rel="shortcut icon"
-          href="/images/favicon.png"
-          type="image/x-icon"
-        />
+        <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
         <title>Shahab Munir </title>
         <meta name="keywords" content="creative, agency, portfolio" />
         <meta
