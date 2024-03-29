@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import Image from "next/image";
 import thumb from "public/images/faq-thumb.png";
 
-const FaqMain = () => {
+const FAQs = () => {
   const [imgTab, setImgTab] = useState(0);
   return (
     <section className="section faq fade-wrapper">
@@ -179,4 +179,4 @@ const FaqMain = () => {
   );
 };
 
-export default FaqMain;
+export default FAQs;

@@ -24,7 +24,7 @@ const OurMission = () => {
                   <div className="text-center text-lg-start">
                     <p>
                       Assembling the team of talented people to enhance your
-                      experience of IT solutions at xpovio.
+                      experience of Digital solutions at My Agency.
                     </p>
                   </div>
                 </div>
