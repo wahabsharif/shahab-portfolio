@@ -9,9 +9,20 @@ import { Autoplay } from "swiper/modules";
 import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/swiper-bundle.css";
 
-const HomeClients = () => {
+const OurClients = () => {
   return (
     <div className="sponsor section pb-0">
+      <div className="container">
+        <div className="row">
+          <div className="col-12">
+            <div className="banner__content">
+              <h1 className="text-uppercase text-start fw-9 mb-5 title-anim">
+                Our Clients
+              </h1>
+            </div>
+          </div>
+        </div>
+      </div>
       <div className="container-fluid">
         <div className="row justify-content-center">
           <div className="col-12">
@@ -153,4 +164,4 @@ const HomeClients = () => {
   );
 };
 
-export default HomeClients;
+export default OurClients;

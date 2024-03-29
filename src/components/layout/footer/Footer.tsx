@@ -1,7 +1,7 @@
 import React from "react";
 import Image from "next/image";
 import Link from "next/link";
-import logo from "public/images/logo.png";
+import logo from "public/logo/shahab-munir-logo-landscape.png";
 
 const Footer = () => {
   const currentYear = new Date().getFullYear();
@@ -104,7 +104,6 @@ const Footer = () => {
                       Copyright &copy;
                       <span id="copyYear">{currentYear}</span> Xpovio by{" "}
                       <Link
-                        
                         href="https://themeforest.net/user/UltraDevs"
                         target="_blank"
                       >

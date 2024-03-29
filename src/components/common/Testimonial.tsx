@@ -8,7 +8,7 @@ import sthumb from "public/images/testimonial/s-thumb.png";
 import sthumbtwo from "public/images/testimonial/s-thumb-two.png";
 import sthumbthree from "public/images/testimonial/s-thumb-three.png";
 
-const HomeTestimonial = () => {
+const Testimonial = () => {
   const [nextSlideIndex, setNextSlideIndex] = useState<number>(1);
 
   const handleSlideChange = (swiper: any) => {
@@ -16,94 +16,19 @@ const HomeTestimonial = () => {
     setNextSlideIndex(nextIndex);
   };
   return (
-    <section className="section testimonial pt-0 position-relative">
+    <section className="section testimonial pt-5 position-relative">
       <div className="testimonial__text-slider-w">
-        <Swiper
-          slidesPerView="auto"
-          spaceBetween={40}
-          speed={5000}
-          loop={true}
-          centeredSlides={true}
-          modules={[Autoplay]}
-          autoplay={{
-            delay: 1,
-            disableOnInteraction: false,
-            pauseOnMouseEnter: true,
-            reverseDirection: false,
-          }}
-          className="testimonial__text-slider"
-        >
-          <SwiperSlide>
-            <div className="testimonial__text-slider-single">
-              <h2 className="h1">
-                <Link href="client-feedback">
-                  client&apos;s testimonial
-                  <i className="fa-sharp fa-solid fa-arrow-down-right"></i>
-                </Link>
-              </h2>
+        <div className="container">
+          <div className="row">
+            <div className="col-12">
+              <div className="banner__content">
+                <h1 className="text-uppercase text-start fw-9 mb-0 title-anim">
+                  Testimonials
+                </h1>
+              </div>
             </div>
-          </SwiperSlide>
-          <SwiperSlide>
-            <div className="testimonial__text-slider-single">
-              <h2 className="h1">
-                <Link href="client-feedback">
-                  client&apos;s testimonial
-                  <i className="fa-sharp fa-solid fa-arrow-down-right"></i>
-                </Link>
-              </h2>
-            </div>
-          </SwiperSlide>
-          <SwiperSlide>
-            <div className="testimonial__text-slider-single">
-              <h2 className="h1">
-                <Link href="client-feedback">
-                  client&apos;s testimonial
-                  <i className="fa-sharp fa-solid fa-arrow-down-right"></i>
-                </Link>
-              </h2>
-            </div>
-          </SwiperSlide>
-          <SwiperSlide>
-            <div className="testimonial__text-slider-single">
-              <h2 className="h1">
-                <Link href="client-feedback">
-                  client&apos;s testimonial
-                  <i className="fa-sharp fa-solid fa-arrow-down-right"></i>
-                </Link>
-              </h2>
-            </div>
-          </SwiperSlide>
-          <SwiperSlide>
-            <div className="testimonial__text-slider-single">
-              <h2 className="h1">
-                <Link href="client-feedback">
-                  client&apos;s testimonial
-                  <i className="fa-sharp fa-solid fa-arrow-down-right"></i>
-                </Link>
-              </h2>
-            </div>
-          </SwiperSlide>
-          <SwiperSlide>
-            <div className="testimonial__text-slider-single">
-              <h2 className="h1">
-                <Link href="client-feedback">
-                  client&apos;s testimonial
-                  <i className="fa-sharp fa-solid fa-arrow-down-right"></i>
-                </Link>
-              </h2>
-            </div>
-          </SwiperSlide>
-          <SwiperSlide>
-            <div className="testimonial__text-slider-single">
-              <h2 className="h1">
-                <Link href="client-feedback">
-                  client&apos;s testimonial
-                  <i className="fa-sharp fa-solid fa-arrow-down-right"></i>
-                </Link>
-              </h2>
-            </div>
-          </SwiperSlide>
-        </Swiper>
+          </div>
+        </div>
       </div>
       <div className="container position-relative">
         <div className="row">
@@ -306,4 +231,4 @@ const HomeTestimonial = () => {
   );
 };
 
-export default HomeTestimonial;
+export default Testimonial;
