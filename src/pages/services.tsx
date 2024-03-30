@@ -1,14 +1,16 @@
-import React from "react";
+import Testimonial from "@/components/common/Testimonial";
+
+import CtaTwo from "@/components/services/CtaTwo";
+
 import Layout from "@/components/layout/Layout";
 import CmnBanner from "@/components/layout/banner/CmnBanner";
-import ServiceMain from "@/components/services/ServiceMain";
+
 import UxProcessTwo from "@/components/services/OurProcess";
-import CtaTwo from "@/components/containers/service-details/CtaTwo";
-import Testimonial from "@/components/common/Testimonial";
+import ServiceMain from "@/components/services/ServiceMain";
 
 const Services = () => {
   return (
-    <Layout header={1} footer={2}>
+    <Layout header={1} footer={1}>
       <CmnBanner title="Our Services" navigation="Our Services" />
       <ServiceMain />
       <UxProcessTwo />

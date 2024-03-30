@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import Image from "next/image";
 import Link from "next/link";
-import logo from "public/images/logo.png";
+import logo from "public/logo/shahab-munir-logo-landscape.png";
 
 interface HeaderProps {
   openNav: boolean;
@@ -72,7 +72,13 @@ const Offcanvas = ({ openNav, setOpenNav }: HeaderProps) => {
           <div className="offcanvas-menu__header nav-fade">
             <div className="logo">
               <Link href="/">
-                <Image src={logo} alt="Image" title="Image" priority />
+                <Image
+                  src={logo}
+                  alt="Image"
+                  title="Image"
+                  priority
+                  width={150}
+                />
               </Link>
             </div>
             <button
@@ -104,41 +110,27 @@ const Offcanvas = ({ openNav, setOpenNav }: HeaderProps) => {
               </ul>
             </div>
           </div>
-          <div className="offcanvas-menu__options nav-fade">
+          {/* <div className="offcanvas-menu__options nav-fade">
             <div className="offcanvas__mobile-options d-flex">
               <Link href="contact-us" className="btn btn--secondary">
                 Let&apos;s Talk
               </Link>
             </div>
-          </div>
+          </div> */}
           <div className="offcanvas-menu__social social nav-fade">
             <Link
-              href="https://www.facebook.com/"
+              href="https://www.facebook.com/profile.php?id=100069850357888"
               target="_blank"
               aria-label="share us on facebook"
             >
               <i className="fa-brands fa-facebook-f"></i>
             </Link>
             <Link
-              href="https://www.twitter.com/"
+              href="https://www.linkedin.com/in/shahab-munir-48b208213?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
               target="_blank"
-              aria-label="share us on twitter"
-            >
-              <i className="fa-brands fa-twitter"></i>
-            </Link>
-            <Link
-              href="https://www.pinterest.com/"
-              target="_blank"
-              aria-label="share us on pinterest"
+              aria-label="share us on linkedin"
             >
               <i className="fa-brands fa-linkedin-in"></i>
-            </Link>
-            <Link
-              href="https://www.instagram.com/"
-              target="_blank"
-              aria-label="share us on instagram"
-            >
-              <i className="fa-brands fa-instagram"></i>
             </Link>
           </div>
         </nav>
