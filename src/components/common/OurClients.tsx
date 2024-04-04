@@ -1,10 +1,18 @@
 import Image from "next/image";
-import five from "public/images/sponsor/five.png";
-import four from "public/images/sponsor/four.png";
-import one from "public/images/sponsor/one.png";
-import six from "public/images/sponsor/six.png";
-import three from "public/images/sponsor/three.png";
-import two from "public/images/sponsor/two.png";
+import aamir from "public/images/our-client/aamir.png";
+import bigBen from "public/images/our-client/big-ben.png";
+import chef from "public/images/our-client/chef.png";
+import hsm from "public/images/our-client/hsm.png";
+import ilmi from "public/images/our-client/ilmi.png";
+import itl from "public/images/our-client/itl.png";
+import khass from "public/images/our-client/khass.png";
+import ktc from "public/images/our-client/ktc.png";
+import mtl from "public/images/our-client/mtl.png";
+import ptc from "public/images/our-client/ptc.png";
+import ptl from "public/images/our-client/ptl.png";
+import punjabTapeBallLeague from "public/images/our-client/punjab-tapeball-league.png";
+import shatco from "public/images/our-client/shatco.png";
+
 import { Autoplay } from "swiper/modules";
 import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/swiper-bundle.css";
@@ -31,14 +39,14 @@ const OurClients = () => {
                 slidesPerView={1}
                 spaceBetween={30}
                 slidesPerGroup={1}
-                speed={1200}
+                speed={1000}
                 loop={true}
                 roundLengths={true}
                 centeredSlides={true}
                 centeredSlidesBounds={false}
                 modules={[Autoplay]}
                 autoplay={{
-                  delay: 3000,
+                  delay: 1000,
                   disableOnInteraction: false,
                   pauseOnMouseEnter: true,
                 }}
@@ -47,105 +55,140 @@ const OurClients = () => {
                     slidesPerView: 6,
                   },
                   1200: {
-                    slidesPerView: 4,
+                    slidesPerView: 6,
                   },
                   992: {
-                    slidesPerView: 3,
+                    slidesPerView: 4,
                   },
                   576: {
-                    slidesPerView: 2,
+                    slidesPerView: 3,
                   },
                 }}
                 className="sponsor__slider"
               >
                 <SwiperSlide>
                   <div className="sponsor__slider-item">
-                    <Image src={one} alt="Image" />
+                    <Image src={chef} alt="Image" width={100} />
                   </div>
                 </SwiperSlide>
                 <SwiperSlide>
                   <div className="sponsor__slider-item">
-                    <Image src={two} alt="Image" />
+                    <Image src={itl} alt="Image" width={100} />
                   </div>
                 </SwiperSlide>
                 <SwiperSlide>
                   <div className="sponsor__slider-item">
-                    <Image src={three} alt="Image" />
+                    <Image src={ilmi} alt="Image" width={100} />
                   </div>
                 </SwiperSlide>
                 <SwiperSlide>
                   <div className="sponsor__slider-item">
-                    <Image src={four} alt="Image" />
+                    <Image src={bigBen} alt="Image" width={100} />
                   </div>
                 </SwiperSlide>
                 <SwiperSlide>
                   <div className="sponsor__slider-item">
-                    <Image src={five} alt="Image" />
+                    <Image src={aamir} alt="Image" width={100} />
                   </div>
                 </SwiperSlide>
                 <SwiperSlide>
                   <div className="sponsor__slider-item">
-                    <Image src={six} alt="Image" />
+                    <Image src={hsm} alt="Image" width={100} />
                   </div>
                 </SwiperSlide>
                 <SwiperSlide>
                   <div className="sponsor__slider-item">
-                    <Image src={one} alt="Image" />
+                    <Image src={chef} alt="Image" width={100} />
                   </div>
                 </SwiperSlide>
                 <SwiperSlide>
                   <div className="sponsor__slider-item">
-                    <Image src={two} alt="Image" />
+                    <Image src={itl} alt="Image" width={100} />
                   </div>
                 </SwiperSlide>
                 <SwiperSlide>
                   <div className="sponsor__slider-item">
-                    <Image src={one} alt="Image" />
+                    <Image src={chef} alt="Image" width={100} />
                   </div>
                 </SwiperSlide>
                 <SwiperSlide>
                   <div className="sponsor__slider-item">
-                    <Image src={two} alt="Image" />
+                    <Image src={itl} alt="Image" width={100} />
                   </div>
                 </SwiperSlide>
                 <SwiperSlide>
                   <div className="sponsor__slider-item">
-                    <Image src={three} alt="Image" />
+                    <Image src={ilmi} alt="Image" width={100} />
                   </div>
                 </SwiperSlide>
                 <SwiperSlide>
                   <div className="sponsor__slider-item">
-                    <Image src={four} alt="Image" />
+                    <Image src={bigBen} alt="Image" width={100} />
                   </div>
                 </SwiperSlide>
                 <SwiperSlide>
                   <div className="sponsor__slider-item">
-                    <Image src={five} alt="Image" />
+                    <Image src={aamir} alt="Image" width={100} />
                   </div>
                 </SwiperSlide>
                 <SwiperSlide>
                   <div className="sponsor__slider-item">
-                    <Image src={six} alt="Image" />
+                    <Image src={hsm} alt="Image" width={100} />
                   </div>
                 </SwiperSlide>
                 <SwiperSlide>
                   <div className="sponsor__slider-item">
-                    <Image src={three} alt="Image" />
+                    <Image src={ilmi} alt="Image" width={100} />
                   </div>
                 </SwiperSlide>
                 <SwiperSlide>
                   <div className="sponsor__slider-item">
-                    <Image src={four} alt="Image" />
+                    <Image src={bigBen} alt="Image" width={100} />
                   </div>
                 </SwiperSlide>
                 <SwiperSlide>
                   <div className="sponsor__slider-item">
-                    <Image src={five} alt="Image" />
+                    <Image src={aamir} alt="Image" width={100} />
                   </div>
                 </SwiperSlide>
                 <SwiperSlide>
                   <div className="sponsor__slider-item">
-                    <Image src={six} alt="Image" />
+                    <Image src={hsm} alt="Image" width={100} />
+                  </div>
+                </SwiperSlide>
+                <SwiperSlide>
+                  <div className="sponsor__slider-item">
+                    <Image src={khass} alt="Image" width={100} />
+                  </div>
+                </SwiperSlide>
+                <SwiperSlide>
+                  <div className="sponsor__slider-item">
+                    <Image src={ktc} alt="Image" width={100} />
+                  </div>
+                </SwiperSlide>
+                <SwiperSlide>
+                  <div className="sponsor__slider-item">
+                    <Image src={ptc} alt="Image" width={100} />
+                  </div>
+                </SwiperSlide>
+                <SwiperSlide>
+                  <div className="sponsor__slider-item">
+                    <Image src={mtl} alt="Image" width={100} />
+                  </div>
+                </SwiperSlide>
+                <SwiperSlide>
+                  <div className="sponsor__slider-item">
+                    <Image src={ptl} alt="Image" width={100} />
+                  </div>
+                </SwiperSlide>
+                <SwiperSlide>
+                  <div className="sponsor__slider-item">
+                    <Image src={punjabTapeBallLeague} alt="Image" width={100} />
+                  </div>
+                </SwiperSlide>
+                <SwiperSlide>
+                  <div className="sponsor__slider-item">
+                    <Image src={shatco} alt="Image" width={100} />
                   </div>
                 </SwiperSlide>
               </Swiper>
@@ -153,7 +196,7 @@ const OurClients = () => {
           </div>
         </div>
       </div>
-      <div className="lines d-none d-lg-flex">
+      <div className="lines d-nchef d-lg-flex">
         <div className="line"></div>
         <div className="line"></div>
         <div className="line"></div>
