@@ -38,7 +38,9 @@
       row-gap: 24px;
       flex-wrap: wrap;
     }
-
+    p {
+      text-align: justify;
+    }
     h5 {
       color: var(--primary-color);
     }
@@ -417,7 +419,8 @@
     @keyframes fir {
       0% {
         width: 0%;
-      } 100% {
+      }
+      100% {
         width: 100%;
       }
     }

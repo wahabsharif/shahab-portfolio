@@ -51,9 +51,10 @@ const Banner = () => {
             <div className="col-12">
               <div className="banner__content">
                 <h1 className="text-uppercase text-start fw-9 mb-0 title-anim">
-                  We are Creative
+                  I am Shahab Munir
                   <span className="interval">
-                    <i className="icon-arrow-top-right"></i> digital agency
+                    <i className="icon-arrow-top-right"></i>A digital Services
+                    Provider
                   </span>
                 </h1>
                 <div className="banner__content-inner">

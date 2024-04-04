@@ -1,10 +1,23 @@
 import Image from "next/image";
 import Link from "next/link";
-import five from "public/images/portfolio/five.png";
-import four from "public/images/portfolio/four.png";
-import one from "public/images/portfolio/one.png";
-import three from "public/images/portfolio/three.png";
-import two from "public/images/portfolio/two.png";
+
+// Stationery Images
+import stationery1 from "public/images/stationery/stationery-1.png";
+import stationery2 from "public/images/stationery/stationery-2.png";
+import stationery3 from "public/images/stationery/stationery-3.png";
+
+// Logo Images
+import logo1 from "public/images/logos/logo-1.png";
+import logo2 from "public/images/logos/logo-2.png";
+import logo3 from "public/images/logos/logo-3.png";
+
+// Catalogue Images
+import catalogue1 from "public/images/catalogue/catalogue-1.png";
+import catalogue2 from "public/images/catalogue/catalogue-2.png";
+import catalogue3 from "public/images/catalogue/catalogue-3.png";
+
+import four from "public/images/portfolio/two.png";
+import one from "public/images/portfolio/two.png";
 import { useState } from "react";
 import "swiper/swiper-bundle.css";
 
@@ -30,11 +43,11 @@ const HomePortfolio = () => {
               </button>
               <button
                 aria-label="Filter Portfolio"
-                className={activeFilter === ".stationary" ? "active" : ""}
-                onClick={() => handleTabClick(".stationary")}
+                className={activeFilter === ".stationery" ? "active" : ""}
+                onClick={() => handleTabClick(".stationery")}
               >
                 <span>02</span>
-                Stationary
+                stationery
               </button>
               <button
                 aria-label="Filter Portfolio"
@@ -89,66 +102,66 @@ const HomePortfolio = () => {
         </div>
 
         <div className="row masonry-grid">
-          {/* Stationary Designs */}
+          {/* stationery Designs */}
           <div
-            className={`col-12 col-md-6 col-xl-4 filter-item-space grid-item-main stationary ${
-              activeFilter === ".stationary" || activeFilter === "*"
+            className={`col-12 col-md-6 col-xl-4 filter-item-space grid-item-main stationery ${
+              activeFilter === ".stationery" || activeFilter === "*"
                 ? ""
                 : "hidden"
             }`}
           >
             <div className="portfolio__single topy-tilt fade-top">
               <Link href="portfolio">
-                <Image src={two} alt="Image" />
+                <Image src={stationery1} alt="Image" />
               </Link>
               <div className="portfolio__single-content">
                 <Link href="portfolio">
                   <i className="fa-sharp fa-solid fa-arrow-up-right"></i>
                 </Link>
                 <h4>
-                  <Link href="portfolio">Stationary Design</Link>
+                  <Link href="portfolio">stationery Design</Link>
                 </h4>
               </div>
             </div>
           </div>
           <div
-            className={`col-12 col-md-6 col-xl-4 filter-item-space grid-item-main stationary ${
-              activeFilter === ".stationary" || activeFilter === "*"
+            className={`col-12 col-md-6 col-xl-4 filter-item-space grid-item-main stationery ${
+              activeFilter === ".stationery" || activeFilter === "*"
                 ? ""
                 : "hidden"
             }`}
           >
             <div className="portfolio__single topy-tilt fade-top">
               <Link href="portfolio">
-                <Image src={two} alt="Image" />
+                <Image src={stationery2} alt="Image" />
               </Link>
               <div className="portfolio__single-content">
                 <Link href="portfolio">
                   <i className="fa-sharp fa-solid fa-arrow-up-right"></i>
                 </Link>
                 <h4>
-                  <Link href="portfolio">Stationary Design</Link>
+                  <Link href="portfolio">stationery Design</Link>
                 </h4>
               </div>
             </div>
           </div>
           <div
-            className={`col-12 col-md-6 col-xl-4 filter-item-space grid-item-main stationary ${
-              activeFilter === ".stationary" || activeFilter === "*"
+            className={`col-12 col-md-6 col-xl-4 filter-item-space grid-item-main stationery ${
+              activeFilter === ".stationery" || activeFilter === "*"
                 ? ""
                 : "hidden"
             }`}
           >
             <div className="portfolio__single topy-tilt fade-top">
               <Link href="portfolio">
-                <Image src={two} alt="Image" />
+                <Image src={stationery3} alt="Image" />
               </Link>
               <div className="portfolio__single-content">
                 <Link href="portfolio">
                   <i className="fa-sharp fa-solid fa-arrow-up-right"></i>
                 </Link>
                 <h4>
-                  <Link href="portfolio">Stationary Design</Link>
+                  <Link href="portfolio">stationery Design</Link>
                 </h4>
               </div>
             </div>
@@ -162,7 +175,7 @@ const HomePortfolio = () => {
           >
             <div className="portfolio__single topy-tilt fade-top">
               <Link href="portfolio">
-                <Image src={three} alt="Image" />
+                <Image src={logo1} alt="Image" />
               </Link>
               <div className="portfolio__single-content">
                 <Link href="portfolio">
@@ -181,7 +194,7 @@ const HomePortfolio = () => {
           >
             <div className="portfolio__single topy-tilt fade-top">
               <Link href="portfolio">
-                <Image src={three} alt="Image" />
+                <Image src={logo2} alt="Image" />
               </Link>
               <div className="portfolio__single-content">
                 <Link href="portfolio">
@@ -200,7 +213,7 @@ const HomePortfolio = () => {
           >
             <div className="portfolio__single topy-tilt fade-top">
               <Link href="portfolio">
-                <Image src={three} alt="Image" />
+                <Image src={logo3} alt="Image" />
               </Link>
               <div className="portfolio__single-content">
                 <Link href="portfolio">
@@ -282,7 +295,7 @@ const HomePortfolio = () => {
           >
             <div className="portfolio__single topy-tilt fade-top">
               <Link href="portfolio">
-                <Image src={five} alt="Image" />
+                <Image src={stationery1} alt="Image" />
               </Link>
               <div className="portfolio__single-content">
                 <Link href="portfolio">
@@ -303,7 +316,7 @@ const HomePortfolio = () => {
           >
             <div className="portfolio__single topy-tilt fade-top">
               <Link href="portfolio">
-                <Image src={five} alt="Image" />
+                <Image src={stationery1} alt="Image" />
               </Link>
               <div className="portfolio__single-content">
                 <Link href="portfolio">
@@ -324,7 +337,7 @@ const HomePortfolio = () => {
           >
             <div className="portfolio__single topy-tilt fade-top">
               <Link href="portfolio">
-                <Image src={five} alt="Image" />
+                <Image src={stationery1} alt="Image" />
               </Link>
               <div className="portfolio__single-content">
                 <Link href="portfolio">
@@ -347,7 +360,7 @@ const HomePortfolio = () => {
           >
             <div className="portfolio__single topy-tilt fade-top">
               <Link href="portfolio">
-                <Image src={one} alt="Image" />
+                <Image src={catalogue1} alt="Image" />
               </Link>
               <div className="portfolio__single-content">
                 <Link href="portfolio">
@@ -368,7 +381,7 @@ const HomePortfolio = () => {
           >
             <div className="portfolio__single topy-tilt fade-top">
               <Link href="portfolio">
-                <Image src={one} alt="Image" />
+                <Image src={catalogue2} alt="Image" />
               </Link>
               <div className="portfolio__single-content">
                 <Link href="portfolio">
@@ -389,7 +402,7 @@ const HomePortfolio = () => {
           >
             <div className="portfolio__single topy-tilt fade-top">
               <Link href="portfolio">
-                <Image src={one} alt="Image" />
+                <Image src={catalogue3} alt="Image" />
               </Link>
               <div className="portfolio__single-content">
                 <Link href="portfolio">

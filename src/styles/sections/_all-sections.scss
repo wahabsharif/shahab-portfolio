@@ -887,6 +887,7 @@
       h4 {
         font-weight: 400;
         text-transform: capitalize;
+        text-align: justify;
       }
 
       .content-cta {
@@ -3170,6 +3171,7 @@
     margin-bottom: 30px;
     &:nth-last-of-type(1) {
       margin-bottom: 0px;
+      text-align: justify;
     }
   }
 }
