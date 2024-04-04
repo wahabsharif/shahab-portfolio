@@ -43,10 +43,11 @@ const CmnBanner = ({ title, navigation, parent, parentLink }: BannerProps) => {
             <div className="col-12 col-lg-7 col-xl-5">
               <div className="text-center text-lg-start">
                 <p className="primary-text">
-                  We are a leading digital agency based in Pakistan, dedicated
-                  to collaborating with reputable businesses and recruiting
-                  individuals who are well-suited for their respective
-                  positions.
+                  Meet Shahab Munir, your digital services provider
+                  extraordinaire. With a knack for innovation and a keen eye for
+                  trends, Shahab delivers tailored solutions for businesses in
+                  the digital realm. From web development to e-commerce
+                  optimization, he's your go-to partner for online success.
                 </p>
               </div>
             </div>

@@ -2,17 +2,30 @@ import React from "react";
 import Image from "next/image";
 import Link from "next/link";
 import samp from "public/images/portfolio/fifteen.png";
+import branding from "public/images/branding/branding-1.png";
+
+import catalogue1 from "public/images/catalogue/catalogue-1.png";
+import catalogue2 from "public/images/catalogue/catalogue-2.png";
+import catalogue3 from "public/images/catalogue/catalogue-3.png";
+
+import logo1 from "public/images/logos/logo-1.png";
+import logo2 from "public/images/logos/logo-2.png";
+import logo3 from "public/images/logos/logo-3.png";
+
+import stationery1 from "public/images/stationery/stationery-1.png";
+import stationery2 from "public/images/stationery/stationery-2.png";
+import stationery3 from "public/images/stationery/stationery-3.png";
 
 const PortfolioMain = () => {
   return (
     <section className="section portfolio-m fade-wrapper">
       <div className="container">
         <div className="row gaper">
-          <div className="col-4 col-lg-4">
+          <div className="col-12 col-md-3">
             <div className="portfolio-m__single topy-tilt fade-top">
               <div className="thumb">
                 <Link href="service-single">
-                  <Image src={samp} alt="Image" />
+                  <Image src={branding} alt="Image" />
                 </Link>
               </div>
               <div className="content">
@@ -22,16 +35,16 @@ const PortfolioMain = () => {
                   </Link>
                 </div>
                 <h3 className="light-title-lg">
-                  <Link href="service-single">LMS web application</Link>
+                  <Link href="service-single">Branding</Link>
                 </h3>
               </div>
             </div>
           </div>
-          <div className="col-4 col-lg-4">
+          <div className="col-12 col-md-3">
             <div className="portfolio-m__single topy-tilt fade-top">
               <div className="thumb">
                 <Link href="service-single">
-                  <Image src={samp} alt="Image" />
+                  <Image src={catalogue1} alt="Image" />
                 </Link>
               </div>
               <div className="content">
@@ -41,16 +54,16 @@ const PortfolioMain = () => {
                   </Link>
                 </div>
                 <h3 className="light-title-lg">
-                  <Link href="service-single">LMS web application</Link>
+                  <Link href="service-single">Catalogue</Link>
                 </h3>
               </div>
             </div>
           </div>
-          <div className="col-4 col-lg-4 col-xxl-3">
+          <div className="col-12 col-md-3">
             <div className="portfolio-m__single topy-tilt fade-top">
               <div className="thumb">
                 <Link href="service-single">
-                  <Image src={samp} alt="Image" />
+                  <Image src={catalogue2} alt="Image" />
                 </Link>
               </div>
               <div className="content">
@@ -60,16 +73,16 @@ const PortfolioMain = () => {
                   </Link>
                 </div>
                 <h3 className="light-title-lg">
-                  <Link href="service-single">LMS web application</Link>
+                  <Link href="service-single">Catalogue</Link>
                 </h3>
               </div>
             </div>
           </div>
-          <div className="col-4 col-lg-4 col-xxl-3">
+          <div className="col-12 col-md-3">
             <div className="portfolio-m__single topy-tilt fade-top">
               <div className="thumb">
                 <Link href="service-single">
-                  <Image src={samp} alt="Image" />
+                  <Image src={catalogue3} alt="Image" />
                 </Link>
               </div>
               <div className="content">
@@ -79,16 +92,16 @@ const PortfolioMain = () => {
                   </Link>
                 </div>
                 <h3 className="light-title-lg">
-                  <Link href="service-single">LMS web application</Link>
+                  <Link href="service-single">Catalogue</Link>
                 </h3>
               </div>
             </div>
           </div>
-          <div className="col-4 col-lg-4 col-xxl-3">
+          <div className="col-12 col-md-3">
             <div className="portfolio-m__single topy-tilt fade-top">
               <div className="thumb">
                 <Link href="service-single">
-                  <Image src={samp} alt="Image" />
+                  <Image src={logo1} alt="Image" />
                 </Link>
               </div>
               <div className="content">
@@ -98,16 +111,16 @@ const PortfolioMain = () => {
                   </Link>
                 </div>
                 <h3 className="light-title-lg">
-                  <Link href="service-single">LMS web application</Link>
+                  <Link href="service-single">Logo</Link>
                 </h3>
               </div>
             </div>
           </div>
-          <div className="col-4 col-lg-4 col-xxl-3">
+          <div className="col-12 col-md-3">
             <div className="portfolio-m__single topy-tilt fade-top">
               <div className="thumb">
                 <Link href="service-single">
-                  <Image src={samp} alt="Image" />
+                  <Image src={logo2} alt="Image" />
                 </Link>
               </div>
               <div className="content">
@@ -117,16 +130,16 @@ const PortfolioMain = () => {
                   </Link>
                 </div>
                 <h3 className="light-title-lg">
-                  <Link href="service-single">LMS web application</Link>
+                  <Link href="service-single">Logo</Link>
                 </h3>
               </div>
             </div>
           </div>
-          <div className="col-4 col-lg-4">
+          <div className="col-12 col-md-3">
             <div className="portfolio-m__single topy-tilt fade-top">
               <div className="thumb">
                 <Link href="service-single">
-                  <Image src={samp} alt="Image" />
+                  <Image src={logo3} alt="Image" />
                 </Link>
               </div>
               <div className="content">
@@ -136,16 +149,16 @@ const PortfolioMain = () => {
                   </Link>
                 </div>
                 <h3 className="light-title-lg">
-                  <Link href="service-single">LMS web application</Link>
+                  <Link href="service-single">Logo</Link>
                 </h3>
               </div>
             </div>
           </div>
-          <div className="col-4 col-lg-4">
+          <div className="col-12 col-md-3">
             <div className="portfolio-m__single topy-tilt fade-top">
               <div className="thumb">
                 <Link href="service-single">
-                  <Image src={samp} alt="Image" />
+                  <Image src={stationery1} alt="Image" />
                 </Link>
               </div>
               <div className="content">
@@ -155,7 +168,45 @@ const PortfolioMain = () => {
                   </Link>
                 </div>
                 <h3 className="light-title-lg">
-                  <Link href="service-single">LMS web application</Link>
+                  <Link href="service-single">Stationery</Link>
+                </h3>
+              </div>
+            </div>
+          </div>
+          <div className="col-12 col-md-3">
+            <div className="portfolio-m__single topy-tilt fade-top">
+              <div className="thumb">
+                <Link href="service-single">
+                  <Image src={stationery2} alt="Image" />
+                </Link>
+              </div>
+              <div className="content">
+                <div className="tr">
+                  <Link href="service-single">
+                    <i className="icon-arrow-top-right"></i>
+                  </Link>
+                </div>
+                <h3 className="light-title-lg">
+                  <Link href="service-single">Stationery</Link>
+                </h3>
+              </div>
+            </div>
+          </div>
+          <div className="col-12 col-md-3">
+            <div className="portfolio-m__single topy-tilt fade-top">
+              <div className="thumb">
+                <Link href="service-single">
+                  <Image src={stationery3} alt="Image" />
+                </Link>
+              </div>
+              <div className="content">
+                <div className="tr">
+                  <Link href="service-single">
+                    <i className="icon-arrow-top-right"></i>
+                  </Link>
+                </div>
+                <h3 className="light-title-lg">
+                  <Link href="service-single">Stationery</Link>
                 </h3>
               </div>
             </div>

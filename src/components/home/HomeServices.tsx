@@ -1,6 +1,11 @@
 import Image from "next/image";
 import Link from "next/link";
-import blogthumb from "public/images/offer/blog-thumb.png";
+import Branding from "public/images/branding/branding-1.png";
+import SocialMedia from "public/images/offer/blog-thumb.png";
+import Logo from "public/images/logos/logo-1.png";
+import VideoEditing from "public/images/offer/blog-thumb.png";
+import WebDev from "public/images/offer/blog-thumb.png";
+import DigitalMarketing from "public/images/offer/blog-thumb.png";
 import star from "public/images/offer/star.png";
 import three from "public/images/offer/three.png";
 import two from "public/images/offer/two.png";
@@ -86,7 +91,7 @@ const HomeServices = () => {
                   </Link>
                 </h2>
                 <div className="offer-thumb-hover d-none d-md-block">
-                  <Image src={blogthumb} alt="Image" />
+                  <Image src={Branding} alt="Image" />
                 </div>
               </div>
               <div className="offer__cta-single fade-top">
@@ -101,7 +106,7 @@ const HomeServices = () => {
                   </Link>
                 </h2>
                 <div className="offer-thumb-hover d-none d-md-block">
-                  <Image src={two} alt="Image" />
+                  <Image src={SocialMedia} alt="Image" />
                 </div>
               </div>
               <div className="offer__cta-single fade-top">
@@ -116,7 +121,7 @@ const HomeServices = () => {
                   </Link>
                 </h2>
                 <div className="offer-thumb-hover d-none d-md-block">
-                  <Image src={three} alt="Image" />
+                  <Image src={Logo} alt="Image" />
                 </div>
               </div>
               <div className="offer__cta-single fade-top">
@@ -131,7 +136,7 @@ const HomeServices = () => {
                   </Link>
                 </h2>
                 <div className="offer-thumb-hover d-none d-md-block">
-                  <Image src={blogthumb} alt="Image" />
+                  <Image src={VideoEditing} alt="Image" />
                 </div>
               </div>
               <div className="offer__cta-single fade-top">
@@ -146,7 +151,7 @@ const HomeServices = () => {
                   </Link>
                 </h2>
                 <div className="offer-thumb-hover d-none d-md-block">
-                  <Image src={blogthumb} alt="Image" />
+                  <Image src={WebDev} alt="Image" />
                 </div>
               </div>
               <div className="offer__cta-single fade-top">
@@ -161,7 +166,7 @@ const HomeServices = () => {
                   </Link>
                 </h2>
                 <div className="offer-thumb-hover d-none d-md-block">
-                  <Image src={blogthumb} alt="Image" />
+                  <Image src={DigitalMarketing} alt="Image" />
                 </div>
               </div>
             </div>
